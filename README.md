@@ -77,14 +77,14 @@ and test set:
 
 We are good to go by:
 
-    $ python source/test/test_d.py --arch 'BDRRN' --weights_path 'path/to/your/weight.pth' --images_dir '/path/to/decoded_frame/folder/' --parts_dir '/path/to/mean_mask/folder/' --outputs_dir 'path/to/your/results_folder/' --gts_dir '/path/to/the/groundtruth/folder/' --num_channels 1 --cuda_device 0
+    $ python source/test/test.py --arch 'BDRRN' --weights_path 'path/to/your/weight.pth' --images_dir '/path/to/decoded_frame/folder/' --parts_dir '/path/to/mean_mask/folder/' --outputs_dir 'path/to/your/results_folder/' --gts_dir '/path/to/the/groundtruth/folder/' --num_channels 1 --cuda_device 0
 
 
 ### Training New Models
     
 Run the training script:
 
-    $ python source/train/main_d.py --arch 'BDRRN' --images_dir '/path/to/decoded_frame/folder/' --parts_dir '/path/to/mean_mask/folder/'  --labels_dir '/path/to/the/groundtruth/folder/' --outputs_dir 'path/to/weights/folder/' --num_epoch 150 --num_channels 1 --cuda_device 0 --batch_size 256 --format '.png'
+    $ python source/train/train.py --arch 'BDRRN' --images_dir '/path/to/decoded_frame/folder/' --parts_dir '/path/to/mean_mask/folder/'  --labels_dir '/path/to/the/groundtruth/folder/' --outputs_dir 'path/to/weights/folder/' --num_epoch 150 --num_channels 1 --cuda_device 0 --batch_size 256 --format '.png'
 
 
 ### Contact
