@@ -15,7 +15,7 @@ Picture Coding Symposium, Ningbo, China, PCS 2019
 1. [Training New Models](#training-new-models) 
 
 ### Introduction
-we developed a B-DRRN with an additional branch that used the Recursive Residual structure for limiting the size of the network.
+We developed a B-DRRN with an additional branch that used the Recursive Residual structure for limiting the size of the network.
 This branch then is used to learn the features from the block information which is represented for the source of block-based video
 coding artifact. Furthermore, our B-DRRN uses the sharing weight technique for all branches to keep the number of parameters remains 
 the same with the main branch.
