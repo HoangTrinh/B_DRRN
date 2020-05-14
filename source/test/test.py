@@ -5,7 +5,7 @@ import torch
 import torch.backends.cudnn as cudnn
 from torchvision import transforms
 import PIL.Image as pil_image
-from source.model import BDRRN, BDRRN_cat
+from model import BDRRN, BDRRN_cat
 import glob
 import math
 import numpy
