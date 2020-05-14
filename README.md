@@ -59,21 +59,15 @@ Make model weights dir and Middlebury dataset dir:
     $ mkdir model_weights
     $ mkdir test_data
     
-Download pretrained models for QP = 37, 
-
-    $ cd model_weights
-    $ wget https://drive.google.com/open?id=1HT1169L2U8VUJjCAjxTx0BYwaCVsJa8o
+Download pretrained models for QP = 37 from https://drive.google.com/open?id=1HT1169L2U8VUJjCAjxTx0BYwaCVsJa8o and put it into model_weights/ folder.
     
 and test set:
-    
-    $ cd test_data
-    $ wget https://drive.google.com/open?id=1PKRHDBPjY685oVBtkATUpzEVPpbh1FOs
+Decoded frames: https://drive.google.com/open?id=1PKRHDBPjY685oVBtkATUpzEVPpbh1FOs
     $ unzip decoded_frames.zip
-    $ wget https://drive.google.com/open?id=1Z4hwD5o7myFDNiM5pyHZq9SZ9mMEcfS-
+Mean Mask frames: https://drive.google.com/open?id=1Z4hwD5o7myFDNiM5pyHZq9SZ9mMEcfS-
     $ unzip mean_mask_frames.zip
-    $ wget https://drive.google.com/open?id=1etkaj9q38QyeiOQAI_06fW2Mv6a1-voj
+Ground Truth: https://drive.google.com/open?id=1etkaj9q38QyeiOQAI_06fW2Mv6a1-voj
     $ unzip ground_truth.zip
-    $ cd ..
 
 We are good to go by:
 
