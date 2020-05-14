@@ -62,7 +62,7 @@ Make model weights dir and Middlebury dataset dir:
 Download pretrained models for QP = 37, 
 
     $ cd model_weights
-    $ wget https://drive.google.com/file/d/1Q-RDlvpQ1YdwODw5EKK297CS6cdsnV0H/view?usp=sharing
+    $ wget https://drive.google.com/open?id=1HT1169L2U8VUJjCAjxTx0BYwaCVsJa8o
     $ unzip B_DRRN.pth.zip
     
 and test set:
