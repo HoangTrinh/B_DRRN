@@ -59,13 +59,13 @@ Make model weights dir and Middlebury dataset dir:
     $ mkdir model_weights
     $ mkdir test_data
     
-Download pretrained models for QP = 37 from https://drive.google.com/open?id=1HT1169L2U8VUJjCAjxTx0BYwaCVsJa8o and put it into model_weights/ folder.
+Download pretrained models for QP = 37 from https://drive.google.com/open?id=1HT1169L2U8VUJjCAjxTx0BYwaCVsJa8o and put it into ./model_weights/ folder.
     
 Download and uncompressed the test set:
 
 Decoded frames: https://drive.google.com/open?id=1PKRHDBPjY685oVBtkATUpzEVPpbh1FOs
 
-  $ unzip decoded_frames.zip
+    $ unzip decoded_frames.zip
 
 Mean Mask frames: https://drive.google.com/open?id=1Z4hwD5o7myFDNiM5pyHZq9SZ9mMEcfS-
     
