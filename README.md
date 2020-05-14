@@ -63,7 +63,6 @@ Download pretrained models for QP = 37,
 
     $ cd model_weights
     $ wget https://drive.google.com/open?id=1HT1169L2U8VUJjCAjxTx0BYwaCVsJa8o
-    $ unzip B_DRRN.pth.zip
     
 and test set:
     
