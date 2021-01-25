@@ -1,5 +1,5 @@
 ﻿# B-DRRN: A Block Information Constrained Deep Recursive Residual Network for Video Compression Artifacts Reduction (PCS'19)
-[Paper](https://doi.org/10.1109/PCS48520.2019.8954521)
+[Paper](https://doi.org/10.1109/PCS48520.2019.8954521)[arXiv](https://arxiv.org/abs/2101.09021)
 
 Trinh Man Hoang,
 [Jinjia Zhou](https://www.zhou-lab.info/jinjia-zhou)
